@@ -60,4 +60,9 @@ class GoogleMapsPlatformController extends PlatformMapsPlatformController {
   Future<Uint8List?> takeSnapshot() {
     return _googleMapController.takeSnapshot();
   }
+
+  @override
+  Future<void> dispose() async{
+    _googleMapController.dispose();
+  }
 }

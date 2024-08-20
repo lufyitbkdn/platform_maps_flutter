@@ -9,4 +9,5 @@ abstract class PlatformMapsPlatformController {
   Future<void> moveCamera(CameraUpdate cameraUpdate);
   Future<LatLngBounds> getVisibleRegion();
   Future<Uint8List?> takeSnapshot();
+  Future<void> dispose();
 }

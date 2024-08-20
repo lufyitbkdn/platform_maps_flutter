@@ -59,4 +59,9 @@ class AppleMapsPlatformController extends PlatformMapsPlatformController {
   Future<Uint8List?> takeSnapshot() {
     return _appleMapController.takeSnapshot();
   }
+
+  @override
+  Future<void> dispose() async{
+    // Do nothing
+  }
 }

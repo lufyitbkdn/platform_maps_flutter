@@ -8,6 +8,7 @@ export 'package:platform_maps_flutter_platform_interface/platform_maps_flutter_p
         CameraPositionCallback,
         CameraUpdate,
         Circle,
+        CircleId,
         InfoWindow,
         LatLng,
         LatLngBounds,

@@ -32,6 +32,7 @@ class PlatformMap extends StatelessWidget {
     this.onLongPress,
   }) : _platform = PlatformMapsPlatformWidget(
           PlatformMapsPlatformWidgetCreationParams(
+            onMapCreated: onMapCreated,
             compassEnabled: compassEnabled,
             gestureRecognizers: gestureRecognizers,
             initialCameraPosition: initialCameraPosition,

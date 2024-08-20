@@ -60,4 +60,6 @@ class PlatformMapController {
 
   /// Returns the image bytes of the map
   Future<Uint8List?> takeSnapshot() => platformController.takeSnapshot();
+
+  Future<void> dispose() => platformController.dispose();
 }
